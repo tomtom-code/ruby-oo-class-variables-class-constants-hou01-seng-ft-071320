@@ -4,9 +4,9 @@ class Shoe
 
   BRANDS = []
 
-  def initialize(brand)
-    @brand = brand
-    BRANDS << brand
+  #def initialize(brand)
+    #@brand = brand
+    #BRANDS << brand
     
   end
 
@@ -14,6 +14,12 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+
+  def brand=(brand)
+    @brand = brand
+    a = @brand
+    brands = a.uniq
+    BRANDS << brands
 
 
 
