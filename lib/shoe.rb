@@ -20,7 +20,7 @@ class Shoe
     a = brand
     brands = a.uniq
     BRANDS << brands
-    
+
   end
 
 
